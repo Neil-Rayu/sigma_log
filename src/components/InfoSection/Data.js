@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "why-sigma",
+  lightBg: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Why Sigma?",
+  headline:
+    '"No problem can withstand the assault of sustained thinking" -Voltaire',
+  description:
+    "Now the question would be... how does one learn in a sustainable manner? The solution I came up with to solve this problem is a game style productivity tool; This solution is beneficial due to the dopamine feedback and the overall layout of games (do small side-quests that lead to main-quest).",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/productive_laptop.svg").default,
+  alt: "Productive Man Sitting In Front Of Laptop",
+  dark: true,
+  primary: true,
+  lightTextSub: false,
+};
+export const homeObjTwo = {
+  id: "about",
+  lightBg: false,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "About Me",
+  headline: "A Project For Fun...",
+  description: "Just a random student who is making a project for fun",
+  buttonLabel: "Contact Me",
+  imgStart: true,
+  img: require("../../images/about_me.svg").default,
+  alt: "Guy who Writes code",
+  dark: true,
+  primary: true,
+  lightTextSub: false,
+};
+export const homeObjThree = {
+  id: "useful-links",
+  lightBg: false,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "Useful Links",
+  headline: "Here's some useful references to help get you started",
+  description:
+    '"Supper Mario Effect (Ted Talk)" By Mark Rober, and "How video games are changing my life" by Better Ideas',
+  buttonLabel: "Click Here For All Videos",
+  imgStart: false,
+  img: require("../../images/useful_links.svg").default,
+  alt: "Youtube Screen",
+  dark: true,
+  primary: true,
+  lightTextSub: false,
+};
